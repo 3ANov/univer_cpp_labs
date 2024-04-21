@@ -1,6 +1,13 @@
-#include "tasks.h"
+#include <iostream>
+#include <cmath>
+using namespace std;
 
-void f3(double x_start, double x_end, double h){
+int main(){
+    double x_start = -3;
+    double x_end = 0;
+    double h = 0.1;
+
+
     double y = 0;
     for (double x = x_start; x <= x_end; x += h)
     {
@@ -15,4 +22,5 @@ void f3(double x_start, double x_end, double h){
             cout << x << '\t' << y << '\n';
         }
     }
+    return 0;
 }

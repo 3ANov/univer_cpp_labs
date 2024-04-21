@@ -1,6 +1,11 @@
-#include "tasks.h"
+#include <iostream>
+#include <cmath>
+#include <iomanip>
 
-void f4()
+using namespace std;
+
+
+int main()
 {
     float z1 = 0.45;
     float z2 = 0.17;
@@ -18,4 +23,6 @@ void f4()
     }
     cout << fixed << setprecision (20);  
     cout << setw(20) << result << '\n';
+    
+    return 0;
 }
